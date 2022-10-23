@@ -1,5 +1,16 @@
 .callback {
   display: flex;
   justify-content: center;
-  background-color: rgb(136, 110, 110);
+  background-color: F4F4F4;
+}
+
+.callback-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #333333;
+}
+
+.callback-form {
+  padding: 78px 30px 82px 30px;
 }
