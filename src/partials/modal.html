@@ -1,3 +1,104 @@
+<div class="modal" data-modal="1">
+  <div data-modal class="backdrop is-hidden">
+    <!-- <button type="button" data-modal-close class="cross-btn">
+        <svg class="modal-close-cross">
+          <use href="./icon/symbol-defs.svg#cross"></use>
+        </svg>
+      </button> -->
+    <form class="form-order">
+      <p class="form-order-heading">Залиште свої дані, ми вам передзвонимо</p>
+
+      <label class="form-label">
+        <p class="form-order-title">Ім'я</p>
+        <div class="form-field">
+          <input
+            class="form-order-input"
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="name"
+          />
+          <svg class="form-svg-field">
+            <!-- <use href="./icon/symbol-defs.svg#person-black"></use> -->
+          </svg>
+        </div>
+      </label>
+
+      <label class="form-label">
+        <p class="form-order-title">Телефон</p>
+        <div class="form-field">
+          <input
+            class="form-order-input"
+            type="tel"
+            name="phone"
+            id="phone"
+            required
+            placeholder="phone number"
+          />
+          <svg class="form-svg-field">
+            <!-- <use href="./icon/symbol-defs.svg#phone-black"></use> -->
+          </svg>
+        </div>
+      </label>
+
+      <label class="form-label">
+        <p class="form-order-title">Пошта</p>
+        <div class="form-field">
+          <input
+            class="form-order-input"
+            type="email"
+            name="email"
+            placeholder="email"
+            required
+          />
+          <svg class="form-svg-field">
+            <!-- <use href="./icon/symbol-defs.svg#email-black"></use> -->
+          </svg>
+        </div>
+      </label>
+
+      <label class="form-label form-textarea">
+        <p class="form-order-title">Коментар</p>
+        <textarea
+          class="form-order-textarea"
+          name="comment"
+          cols="30"
+          rows="10"
+          placeholder="Введіть текст"
+          required
+        ></textarea>
+      </label>
+
+      <label for="agree" class="check-contract">
+        <input
+          type="checkbox"
+          class="checkbox-contract"
+          name="agree"
+          id="agree"
+          required
+        />
+        <span class="check-span">
+          Погоджуюся з розсилкою та приймаю
+          <a class="check-link" href="#"> Умови договору</a></span
+        >
+      </label>
+
+      <button class="form-btn-send" type="submit">Відправити</button>
+    </form>
+  </div>
+  <!--   Svg иконка для закрытия окна  -->
+  <svg
+    class="modal__cross js-modal-close"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+    />
+  </svg>
+  <!-- <p class="modal__title">Заголовок окна 1</p> -->
+</div>
 <div class="modal" data-modal="2">
   <!--   Svg иконка для закрытия окна  -->
   <svg
@@ -10,17 +111,4 @@
     />
   </svg>
   <p class="modal__title">Заголовок окна 2</p>
-</div>
-<div class="modal" data-modal="1">
-  <!--   Svg иконка для закрытия окна  -->
-  <svg
-    class="modal__cross js-modal-close"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-    />
-  </svg>
-  <p class="modal__title">Заголовок окна 1</p>
 </div>
