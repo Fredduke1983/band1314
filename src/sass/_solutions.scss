@@ -1,6 +1,57 @@
 .solutions {
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: #28A745;
   color: #fff;
 }
+
+.visually-hidden {
+ position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.solution-section {
+  
+}
+
+.solution-text {
+  // font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.65;
+color: #FFFFFF;
+
+margin-bottom: 5px;
+}
+
+.solution-title {
+  font-style: normal;
+font-weight: 300;
+font-size: 38px;
+line-height: 1.26;
+color: #FFFFFF;
+
+margin-bottom: 26px;
+}
+
+.solution-info {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1,55;
+color: #FFFFFF;
+
+margin-bottom: 17px;
+}
+
+
+
