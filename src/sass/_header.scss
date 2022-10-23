@@ -1,7 +1,35 @@
 @import './variables';
 
-.header {
+// .header {
+//   display: flex;
+//   justify-content: center;
+//   background-color: tomato;
+// }
+
+.nav-logo {
+  display: block;
+  margin: 0;
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--accent-color);
+}
+
+.nav-logo-secondary {
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--second-text-color);
+}
+
+.nav-list {
+}
+
+.nav-link {
+  display: block;
+  margin: 0;
+  padding-left: 0;
+  background-color: transparent;
+}
+
+.nav-item {
   display: flex;
-  justify-content: center;
-  background-color: var(--accent-color);
 }
